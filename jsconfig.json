@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"target": "es2022",
+		"baseUrl": "./src",
+		"paths": {
+			"@components/*": ["./components/*"],
+			"@styles/*": ["./styles/*"],
+			"@pages/*": ["./pages/*"],
+			"@controllers/*": ["./controllers/*"],
+			"@middleware/*": ["./middleware/*"],
+			"@hooks/*": ["./hooks/*"],
+			"@assets/*": ["./assets/*"],
+			"@lib/*": ["./lib/*"],
+			"@routes/*": ["./routes/*"],
+			"@config/*": ["./config/*"]
+		}
+	}
+}
